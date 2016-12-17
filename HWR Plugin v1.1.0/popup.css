@@ -1,0 +1,311 @@
+/*
+ * HWReady.it Community Extension
+ * Coded by: Luca Galardini
+ * www.facebook.com/GalardiniLuca
+ * CSS Last Update: 26/10/2016
+ *
+ * Amazon Reflink Core by Amazing Affiliate Link
+ * Copyright (c) 2012-2014 Vincent Perta
+ * http://www.linkedin.com/pub/vincent-perta/23/720/4b0
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * http://www.gnu.org/licenses/gpl-3.0.txt 
+ */
+
+body {
+        font-family: "Segoe UI", "Lucida Grande", "Bebas", Tahoma, sans-serif;
+        font-size: 100%;
+		height: 598px;
+		width: 304px;
+		background-image: url('images/popup/background.png');
+		background-repeat: no-repeat;
+		margin: 0px 0px 0px 0px;
+}
+img {
+	border: 0px;
+	float:left;
+}
+a {
+	margin: 0px 0px 0px 0px;
+	color: white;
+	text-decoration: none;
+}
+#logo {
+	height: 80px;
+	width: 284px;
+	margin: 0px 0px 0px 0px;
+	
+	background-image: url('images/popup/logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#spacer-top {
+	width: 304px;
+	height: 10px;
+}
+#spacer-bottom {
+	width: 304px;
+	height: 4px;
+}
+#spacer {
+	height:8px;
+	width:284px;
+	padding: 0 0 0 0;
+}
+#spacer-border {
+	height: 560px;
+	width: 10px;
+	
+	float: left;
+}
+#spacer-small {
+	height: 48px;
+	width: 10px;
+	
+	float: left;
+}
+#footer { /*kinda spacer-bottom*/
+	width: 304px;
+	height : 25px;
+	
+	float:left;
+	
+	background-image: url('images/popup/sf.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#button-fb { 
+	width: 284px;
+	height: 64px;
+	background-color: black;
+	color: white;
+	border-radius: 4px;
+	vertical-align:middle;
+}
+#content {
+	width: 284px;
+	height: 472px;
+	margin-left:10px;
+}
+
+#button-avg { /*Forum btn and other things*/
+	width: 284px;
+	height: 48px;
+	background-color: black;
+	color:white;
+	border-radius: 4px;
+}
+#button-small {
+	width: 137px;
+	height: 48px;
+	color:white;
+	float:left;
+	border-radius: 4px;
+}
+#social {
+	width: 284px;
+	height: 64px;
+	background-color: pink;
+	float: left;
+	
+}
+
+#fb-button {
+	width: 164px;
+	height: 64px;
+
+	float: left;
+}
+
+
+
+#fb-group-button{
+	width: 120px;
+	height: 64px;
+
+	float: left;
+	
+	background-image: url('images/popup/fbborder.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	
+}
+
+.fb-group-single-button {
+	width: 120px;
+	height: 33.33%;
+	/*background-color: red;*/
+	float: left;
+	font-size: 14px;
+	color: black;
+	text-align: center;
+}
+#color1{
+	background-color: #498c49;
+
+}
+ #color2{
+	background-color: #e2e8e2;
+
+}
+ #color3{
+	background-color: #cf3427;
+	
+}
+#color1 a{
+	background-color: #498c49;
+	color: black;
+}
+ #color2 a{
+	background-color: #e2e8e2;
+	color: black;
+}
+ #color3 a{
+	background-color: #cf3427;
+	color: black;
+}
+.button {
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 16px;
+  padding: 20px;
+  width: 164px;
+  height: 64px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.button-avg{
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 16px;
+  padding: 0px 0px 0px 20px;
+  width: 284px;
+  height: 48px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+.button-avg span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-avg span:after {
+  content: '>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-avg:hover span {
+  padding-right: 20px;
+}
+
+.button-avg:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button-small{
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 16px;
+  padding: 0px 0px 0px 20px;
+  width: 137px;
+  height: 48px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+.button-small span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-small span:after {
+  content: '>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-small:hover span {
+  padding-right: 20px;
+}
+
+.button-small:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
